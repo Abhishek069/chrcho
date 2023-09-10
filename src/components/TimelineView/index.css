@@ -1,0 +1,33 @@
+.My_j_heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+  /* font-weight: 30px; */
+}
+.ccbpheading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #171f46;
+  /* font-weight: 30px; */
+}
+@media screen and (min-width: 760px) {
+  .My_j_heading {
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #171f46;
+    /* font-weight: 40px; */
+  }
+  .ccbpheading {
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: #171f46;
+    /* font-weight: 30px; */
+  }
+}
+
+.Home-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
