@@ -13,9 +13,9 @@ import {
 
 const CourseTimelineCard = props => {
   const DetailsOfCourse = props
-  const {courseTitle, description, duration, tagslist} = DetailsOfCourse
+  const {courseTitle, description, duration, tagsList} = DetailsOfCourse
   //   console.log(DetailsOfCourse)
-  const {id, name} = tagslist
+  //   const {id, name} = tagslist
 
   return (
     <>
@@ -27,13 +27,13 @@ const CourseTimelineCard = props => {
         </DurationContainer>
       </CourseTitleAndDurationContainer>
       <CourseDescription>{description}</CourseDescription>
-      {/* <CourseTagsList>
+      <CourseTagsList>
         {tagsList.map(eachTag => (
           <CourseTagItem key={eachTag.id}>
             <CourseTag>{eachTag.name}</CourseTag>
           </CourseTagItem>
         ))}
-      </CourseTagsList> */}
+      </CourseTagsList>
     </>
   )
 }
